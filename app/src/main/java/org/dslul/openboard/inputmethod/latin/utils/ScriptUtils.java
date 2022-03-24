@@ -44,11 +44,12 @@ public class ScriptUtils {
     public static final int SCRIPT_LATIN = 11;
     public static final int SCRIPT_MALAYALAM = 12;
     public static final int SCRIPT_MYANMAR = 13;
-    public static final int SCRIPT_SINHALA = 14;
-    public static final int SCRIPT_TAMIL = 15;
-    public static final int SCRIPT_TELUGU = 16;
-    public static final int SCRIPT_THAI = 17;
-    public static final int SCRIPT_BULGARIAN = 18;
+    public static final int SCRIPT_SHAN = 14;
+    public static final int SCRIPT_SINHALA = 15;
+    public static final int SCRIPT_TAMIL = 16;
+    public static final int SCRIPT_TELUGU = 17;
+    public static final int SCRIPT_THAI = 18;
+    public static final int SCRIPT_BULGARIAN = 19;
 
     public static final String LANGUAGE_GEORGIAN = "ka";
 
@@ -72,6 +73,7 @@ public class ScriptUtils {
         mLanguageCodeToScriptCode.put("lo", SCRIPT_LAO);
         mLanguageCodeToScriptCode.put("ml", SCRIPT_MALAYALAM);
         mLanguageCodeToScriptCode.put("my", SCRIPT_MYANMAR);
+        mLanguageCodeToScriptCode.put("sh", SCRIPT_SHAN);
         mLanguageCodeToScriptCode.put("si", SCRIPT_SINHALA);
         mLanguageCodeToScriptCode.put("ta", SCRIPT_TAMIL);
         mLanguageCodeToScriptCode.put("te", SCRIPT_TELUGU);
@@ -168,6 +170,7 @@ public class ScriptUtils {
                 // Malayalam unicode block is U+0D00..U+0D7F
                 return (codePoint >= 0xD00 && codePoint <= 0xD7F);
             case SCRIPT_MYANMAR:
+            case SCRIPT_SHAN:
                 // Myanmar has three unicode blocks :
                 // Myanmar U+1000..U+109F
                 // Myanmar extended-A U+AA60..U+AA7F

@@ -91,6 +91,7 @@
     pt_PT: Portuguese (Portugal)/qwerty
     ro: Romanian/qwerty
     ru: Russian/east_slavic
+    shn: Shan (တႆး)/shan
     si_LK: Sinhala (Sri Lanka)/sinhala # This is a preliminary keyboard layout.
     sk: Slovak/qwerty
     sl: Slovenian/qwerty
@@ -691,6 +692,14 @@
             android:imeSubtypeExtraValue="SupportTouchPositionCorrection,EmojiCapable"
             android:isAsciiCapable="false"
     />
+    <subtype android:icon="@drawable/ic_ime_switcher_dark"
+        android:label="@string/subtype_generic"
+        android:subtypeId="0x006602dd"
+        android:imeSubtypeLocale="shn"
+        android:imeSubtypeMode="keyboard"
+        android:imeSubtypeExtraValue="KeyboardLayoutSet=shan,EmojiCapable"
+        android:isAsciiCapable="false"
+        />
     <!-- TODO: This Sinhala keyboard is a preliminary layout.
                This isn't based on the final specification. -->
     <!-- si_LK is currently disabled due to lack of combination rules.

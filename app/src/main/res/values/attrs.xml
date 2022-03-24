@@ -605,10 +605,11 @@
             <enum name="latin" value="11" />
             <enum name="malayalam" value="12" />
             <!-- Myanmar is disabled. <enum name="myanmar" value="13" /> -->
-            <enum name="sinhala" value="14" />
-            <enum name="tamil" value="15" />
-            <enum name="telugu" value="16" />
-            <enum name="thai" value="17" />
+            <enum name="shan" value="14" />
+            <enum name="sinhala" value="15" />
+            <enum name="tamil" value="16" />
+            <enum name="telugu" value="17" />
+            <enum name="thai" value="18" />
         </attr>
     </declare-styleable>
 
