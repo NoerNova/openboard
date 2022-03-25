@@ -27,18 +27,21 @@
         latin:keyboardLayout="@xml/row_optional_number_row" />
     <Row
         latin:keyWidth="10%p"
+        latin:keyLabelFlags="fontNormal"
     >
         <include
             latin:keyboardLayout="@xml/rowkeys_shan1" />
     </Row>
     <Row
         latin:keyWidth="10%p"
+        latin:keyLabelFlags="fontNormal"
     >
         <include
             latin:keyboardLayout="@xml/rowkeys_shan2" />
     </Row>
     <Row
         latin:keyWidth="10%p"
+        latin:keyLabelFlags="fontNormal"
     >
         <Key
             latin:keyStyle="shiftKeyStyle"
