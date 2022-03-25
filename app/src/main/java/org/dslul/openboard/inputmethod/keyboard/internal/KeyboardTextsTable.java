@@ -3284,7 +3284,7 @@ public final class KeyboardTextsTable {
         /* morekeys_cyrillic_soft_sign */ "\u044A",
     };
 
-    /* Locale sh: Serbo-Croatian */
+    /* Locale shn: Shan */
     private static final String[] TEXTS_shn = {
         /* morekeys_a ~ */
         null, null, null, null,
@@ -4332,7 +4332,7 @@ public final class KeyboardTextsTable {
         "rm"     , TEXTS_rm,    /*   1/  2 Romansh */
         "ro"     , TEXTS_ro,    /*   6/ 16 Romanian */
         "ru"     , TEXTS_ru,    /*   9/ 56 Russian */
-        "shn"     , TEXTS_shn,    /*   8/ 69 Shan */
+        "shn"    , TEXTS_shn,   /*   8/ 69 Shan */
         "si"     , TEXTS_si,    /*   2/ 12 Sinhala */
         "sk"     , TEXTS_sk,    /*  20/ 22 Slovak */
         "sl"     , TEXTS_sl,    /*   8/ 20 Slovenian */
