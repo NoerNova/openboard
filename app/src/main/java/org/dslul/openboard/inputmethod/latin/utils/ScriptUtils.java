@@ -73,7 +73,7 @@ public class ScriptUtils {
         mLanguageCodeToScriptCode.put("lo", SCRIPT_LAO);
         mLanguageCodeToScriptCode.put("ml", SCRIPT_MALAYALAM);
         mLanguageCodeToScriptCode.put("my", SCRIPT_MYANMAR);
-        mLanguageCodeToScriptCode.put("sh", SCRIPT_SHAN);
+        mLanguageCodeToScriptCode.put("shn", SCRIPT_SHAN);
         mLanguageCodeToScriptCode.put("si", SCRIPT_SINHALA);
         mLanguageCodeToScriptCode.put("ta", SCRIPT_TAMIL);
         mLanguageCodeToScriptCode.put("te", SCRIPT_TELUGU);
