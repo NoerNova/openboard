@@ -579,4 +579,12 @@ disposition rather than other common dispositions for Latin languages. [CHAR LIM
     <string name="amoled_mode">Deep black backgrounds</string>
     <!-- Description indicating amoled mode can lower power usage depending on the screen of the device. -->
     <string name="amoled_mode_summary">Can reduce power usage depending on the device’s screen technology</string>
+
+    <string name="keyboard_layouts_label">Extra keyboard layouts</string>
+    <string name="keyboard_layout_thai_pattachote">Thai Pattachote</string>
+    <string name="keyboard_layout_thai_kedmanee_non_shiftlock">Thai Kedmanee (non-ShiftLock)</string>
+    <string name="keyboard_layout_thai_pattachote_non_shiftlock">Thai Pattachote (non-ShiftLock)</string>
+    <string name="keyboard_layout_thai_kedmanee">Thai Kedmanee</string>
+    <string name="keyboard_layout_thai_tis_820_2538">Thai TIS 820-2538</string>
+    <string name="keyboard_layout_shan_panglong">Shan (Panglong Keyboard)</string>
 </resources>

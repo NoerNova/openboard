@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard-layouts xmlns:android="http://schemas.android.com/apk/res/android">
+    <keyboard-layout android:label="@string/keyboard_layout_thai_pattachote" android:name="keyboard_layout_thai_pattachote" android:keyboardLayout="@raw/keyboard_layout_thai_pattachote"/>
+    <keyboard-layout android:label="@string/keyboard_layout_thai_kedmanee_non_shiftlock" android:name="keyboard_layout_thai_kedmanee_non_shiftlock" android:keyboardLayout="@raw/keyboard_layout_thai_kedmanee_non_shiftlock"/>
+    <keyboard-layout android:label="@string/keyboard_layout_thai_pattachote_non_shiftlock" android:name="keyboard_layout_thai_pattachote_non_shiftlock" android:keyboardLayout="@raw/keyboard_layout_thai_pattachote_non_shiftlock"/>
+    <keyboard-layout android:label="@string/keyboard_layout_thai_kedmanee" android:name="keyboard_layout_thai_kedmanee" android:keyboardLayout="@raw/keyboard_layout_thai_kedmanee"/>
+    <keyboard-layout android:label="@string/keyboard_layout_thai_tis_820_2538" android:name="keyboard_layout_thai_tis_820_2538" android:keyboardLayout="@raw/keyboard_layout_thai_tis_820_2538"/>
+    <keyboard-layout android:label="@string/keyboard_layout_shan_panglong" android:name="keyboard_layout_shan_panglong" android:keyboardLayout="@raw/keyboard_layout_shan_panglong"/>
+</keyboard-layouts>
